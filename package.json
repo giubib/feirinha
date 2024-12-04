@@ -1,0 +1,19 @@
+{
+  "name": "lista-de-compras",
+  "version": "1.0.0",
+  "description": "Servidor de lista de compras",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+  },
+  "author": "giubib",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
